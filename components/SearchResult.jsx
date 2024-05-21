@@ -5,7 +5,7 @@ const SearchResult = ({ results, searchTerm, closeSearchResults }) => {
     <div className="absolute left-0 top-12 z-[999] w-full rounded-md bg-white p-4 shadow">
       <p className="!text-lg">
         Showing results for
-        <span className="font-semibold"> " {searchTerm} " :</span>
+        <span className="font-semibold"> {searchTerm} :</span>
       </p>
       <ul role="list" className="divided-y divided-gray-100 [&>*]:py-2">
         {results.map((result) => (
